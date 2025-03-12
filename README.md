@@ -25,7 +25,7 @@ so it should ideally be used as part of an `hx-swap-oob="beforeend: #some-elemen
 ## Install
 
 ```html
-<script src="https://unpkg.com/htmx-ext-attribute-tools@2.0.1/attribute-tools.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/htmx-ext-attribute-tools@1/dist/attribute-tools.min.js"></script>
 ```
 
 ## Usage
