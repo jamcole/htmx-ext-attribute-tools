@@ -45,7 +45,6 @@
       if (attributeOperation) {
         var split = attributeOperation.attribute.split(/=/)
         var name = split[0]
-        var value = split.length > 1 ? split[1] : ''
         elt.removeAttribute(name)
       }
       
