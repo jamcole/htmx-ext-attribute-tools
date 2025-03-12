@@ -1,7 +1,6 @@
 {
   "name": "htmx-ext-attribute-tools",
-  "main": "attribute-tools.js",
-  "version": "1.0.0",
+  "main": "dist/attribute-tools.min.js",
   "scripts": {
     "pretest": "eslint attribute-tools.js",
     "test": "mocha-chrome test/index.html",
@@ -23,7 +22,7 @@
     "globals": "^16.0.0",
     "htmx.org": "^2.0.1",
     "mocha": "^10.8.2",
-    "mocha-chrome": "https://github.com/Telroshan/mocha-chrome",
+    "mocha-chrome": "git+https://github.com/Telroshan/mocha-chrome.git",
     "sinon": "^9.2.4"
   }
 }

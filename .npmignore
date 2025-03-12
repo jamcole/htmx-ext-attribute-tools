@@ -1,1 +1,7 @@
-/test
+node_modules/
+chrome/
+.idea
+.github
+*.tgz
+*.tar.gz
+
