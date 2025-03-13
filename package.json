@@ -25,5 +25,5 @@
     "mocha-chrome": "git+https://github.com/Telroshan/mocha-chrome.git",
     "sinon": "^9.2.4"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
