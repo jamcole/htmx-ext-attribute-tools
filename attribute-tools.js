@@ -65,7 +65,7 @@
           if (attributeOperation.operation === 'remove') {
             currentRunTime = currentRunTime + attributeOperation.delay
             removeOperation(elt, attributeOperation, attributeList, currentRunTime)
-          } else if (attributeOperation.operation === 'set') {
+          } else if (attributeOperation.operation === 'set' || attributeOperation.operation === 'add') {
             currentRunTime = currentRunTime + attributeOperation.delay
             setOperation(elt, attributeOperation, attributeList, currentRunTime)
           }

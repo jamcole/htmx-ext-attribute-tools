@@ -19,7 +19,7 @@ describe('attribute-tools extension', function() {
   })
 
   it('adds multiple blank attributes properly', function(done) {
-    var div = make('<div hx-ext="attribute-tools" attributes="set c1, set c2, set c3">Click Me!</div>')
+    var div = make('<div hx-ext="attribute-tools" attributes="add c1, add c2, add c3">Click Me!</div>')
     should.equal(div.hasAttribute('c1'), false)
     should.equal(div.hasAttribute('c2'), false)
     should.equal(div.hasAttribute('c3'), false)
