@@ -35,6 +35,6 @@ Any element with this property will schedule attributes to be applied to its _pa
 
 <!-- The following OOB update surgically applies attributes to "my-element" -->
 <div hx-swap-oob="beforeend: #my-element">
-    <div hx-ext="attribute-tools" apply-parent-attribute="add foo, remove foo:10s"/> <!-- adds the attribute "foo" to "my-element" for 10s -->
+    <div hx-ext="attribute-tools" apply-parent-attributes="add foo, remove foo:10s"/> <!-- adds the attribute "foo" to "my-element" for 10s -->
 </div>
 ```
